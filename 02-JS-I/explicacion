@@ -1,0 +1,9 @@
+VARIABLES: las variables son espacios donde se almacena determinada informacion, dato, ejecucion dentro de la memoria del programa ejecutado, por ejemplo, VAR RECIPIENTE = PAPEL. el nombre de la Variante, es RECIPIENTE, y el valor de dicha variante, es de decir, de RECIPIENTE, es PAPEL.
+
+STRINGS: un string es una cadena de texto, se puede traducir sencillamente a una oracion. 
+
+FUNCIONES: las funciones sirven para reutilizar bloques de codigo o utilizarla varias veces, pero ingresandole datos/argumentos ( parametros ) distintos, y que en base a eso devuelvan un valor o accion distinta, a este concepto de devolver, le llamamos RETURN, que es una accion que se escribe dentro de una funcion en una cierta altura de la funcion donde queremos que nos retorne todo lo que esta atras de este, o que corte la funcion.
+
+DECLARACIONES: se las puede traducir como ordenes de accion. los cuales si o si dependen de que contengan expresiones en su condicional. uno de estos condicionales es el IF, la cual nos permite ejecutar un bloque de codigo, o sea una accion, pero con la "condicion" de que su condicional se cumpla, nosotros le decimos, que sea TRUE.
+
+VALORES BOOLEANOS: es un tipo de dato logico, que solamente representan dos valores, y traducidos de forma mas simple, son valores falsos o verdaderos. 

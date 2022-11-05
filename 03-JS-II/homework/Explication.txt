@@ -1,0 +1,10 @@
+FOR: es un tipo de bucle, el cual se encargar de repetir un codigo para evitar repetirlo muchas veces. el mismo esta compuesto de una variable, la cual se usa como contador, una limitacion para ese contador/variable, y una aclaracion que suma +1 dicha variable.
+entonces en resumen, FOR nos otorga la posibilidad de repetir un codigo cuantas veces nosotros le pidamos con exactitud de saber cuando este bucle se detendra.
+
+&& || !: OPERADORES LOGICOS.
+
+&&: operador logico leido como AND, que sirve para juntar y comparar dos valores que en el caso de que sean TRUE, el resultado de dicha comparacion sera TRUE y por ende accesara al bloque de codigo que dara accion del mismo.
+
+||: operador logico leido como OR, el cual funciona comparando valores como AND, pero con la diferencia de que si los dos valores comparados son TRUE sera FALSE, y si son los dos FALSE sera FALSE, y en el caso de que alguno sea distinto al otro, el resultado sera TRUE y ejecutara el bloque de codigo.
+
+!: operador logico leido como contrario o negacion de ... , que lo que hace es invertir el valor que esta escrito. por ejemplo si A=TRUE y escribimos !A va a ser FALSE. 
