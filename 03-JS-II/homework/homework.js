@@ -168,7 +168,7 @@ function esPrimo(numero) {
       if (numero % i === 0)
         return false;
       }
-        return true;
+        return treue;
       }
 
 
