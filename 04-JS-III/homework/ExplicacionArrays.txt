@@ -1,0 +1,3 @@
+ARRAY: un array es una lista de elementos la cual podemos llenar con distintos tipos de datos, ya sea strings, numeros, valores boleanos, funciones, nulls y undefined.
+para dar un ejemplo practico llevado a la realidad, podemos decir que un array seria una Heladera, y dentro denemos, datos que serian tales como, "bebidas", "verduras", "frutas","carnes".
+Dentro de los arrays tambien podemos alojar otros arrays, o sea, arrays dentro de arrays. 
