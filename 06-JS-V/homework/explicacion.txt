@@ -1,0 +1,5 @@
+* `prototype`: prototype una forma por defecto de crear objetos. por ejemplo, cuando creamos una casa todos sabemos que esta debe tener puertas, ventanas, un techo y paredes.
+con los objetos en programacion sucede lo mismo, las funciones, los objetos tienen por defecto bases de creacion o de forma. aunque tambien nosotros mismos podemos agregarle estos prototipos de creacion y despues ser usados.
+
+* _Constructors_ (de Clases):
+Es quien permite y accesa la creacion de objetos dando y fijando las caracteristica que estos tendran. por ejemplo si quisieramos crear un auto, el constructor es quien recibira y establecera los valores de el color, cantidad de puertas, marca, modelo entre otros.
