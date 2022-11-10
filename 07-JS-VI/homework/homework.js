@@ -1,20 +1,27 @@
 // Do not change any of the function names
 
+const { stringify } = require("git-url-parse");
+
 function mayuscula(nombre) {
   //La función recibe un nombre y debe devolver el mismo que recibe pero con su primer letra en mayúscula
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
-}
+  String.prototype.capitalize = function(){
+    return this.charAt(0).toUpperCase() + this.slice(1);
+  } 
+  return nombre.capitalize();}
 
 function invocarCallback(cb) {
   // Invoca al callback `cb`
   //Tu código:
+  cb();
 }
 
 function operacionMatematica(n1, n2, cb) {
   //Vamos a recibir una función que realiza una operación matemática como callback junto con dos números.
   //Devolver el callback pasándole como argumentos los números recibidos.
   //Tu código:
+  cb(n1, n2);
 }
 
 function sumarArray(numeros, cb) {
@@ -22,12 +29,20 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
+  var sumar = numeros.reduce(function(acc, elementos){
+    return acc + elementos;
+  })
+  cb(sumar);
 }
 
 function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
   //Tu código:
+   array.forEach(function(elemento){
+      cb(elemento);
+    });
+  
 }
 
 function map(array, cb) {
@@ -35,12 +50,21 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
+  nuevoArray = [];
+  array.forEach(function(elemento){
+    nuevoArray.push(cb(elemento));
+}
+  );
+  return nuevoArray;
 }
 
 function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
+  return array.filter(function(elemento){
+    return elemento[0] === 'a';
+  });
 }
 
 // No modificar nada debajo de esta línea
