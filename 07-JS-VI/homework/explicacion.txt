@@ -1,0 +1,2 @@
+Funciones Callback : 
+una funcion Callback podria decirse que es una funcion dentro del parametro de otra. y de forma mas facil de entender su uso, podriamos decir que la funcion callback sirve para asegurar que una funcion se termine de ejecutar y luego se ejecute la segunda, la famosa callback. 
